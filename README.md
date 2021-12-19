@@ -13,6 +13,7 @@ For more info on what this project is doing, check out these learning guides fro
 Adafruit:
 
 - [Lemon Mechanical Keypad](https://learn.adafruit.com/qtpy-lemon-mechanical-keypad-macropad/code)
+-- [Youtube guide](https://youtu.be/it3GjExxi4M?t=341)
 - [CircuitPython LED Animations](https://learn.adafruit.com/circuitpython-led-animations)
 - [Make It a Keyboard](https://learn.adafruit.com/make-it-a-keyboard)
 - [Keypad and Matrix Scanning in CircuitPython](https://learn.adafruit.com/key-pad-matrix-scanning-in-circuitpython)
@@ -69,8 +70,8 @@ Once properly started, the lemon will be recognized as a keyboard.
 Upon releasing all keys, a value between 1 and 62 will be generated, depending
 on what keys were pressed.
 The value will be surrounded by a hard-coded prefix and suffix.
-Feel free to change that! In my day-to-day usage, I map the generated string
-into a command via [textExpander](https://textexpander.com/).
+[Feel free to change that!](https://github.com/flavio-fernandes/Lemon_Keypad/blob/e63860e5cf8e984fbec4ffaa3893b48e546aa195/code.py#L20-L21)
+In my day-to-day usage, I map the generated string into a command via [textExpander](https://textexpander.com/).
 
 ```text
 ;#@lime1#
